@@ -1,0 +1,83 @@
+{
+  "method": "Built-in image generation; ImageMagick nearest-neighbor normalization",
+  "base": "Use case: stylized-concept. ONE standalone production game building sprite for Mindustry. Subject: SUBJECT. Strict top-down orthographic roof/cutaway PLAN view, NOT isometric. Square 2x2 footprint nearly fills canvas, transparent outside. Pixel art with bold clusters readable at 64x64 logical pixels, rendered large with crisp pixel edges. Consistent vanilla Mindustry palette: charcoal #292933 outlines, slate gray metal #626271, gray #9999a5 upper-left bevels, muted tan #c9a675 trim; restrained subject accents. Industrial realistic equipment layout, distinct silhouette within square beveled foundation, small conveyor input slot centered on lower edge. No text, no letters, no scenery, no humans, no perspective walls, no external shadow. Avoid fine noise, smooth gradients, glossy 3D rendering. One building only.",
+  "subjects": [
+    [
+      "headquarters",
+      "Corporate HEADQUARTERS: office roof with a blue glass skylight grid, small satellite dish, HVAC units, orderly central control office. Blue cyan accents."
+    ],
+    [
+      "import-terminal",
+      "IMPORT TERMINAL: freight logistics facility with two teal cargo containers, overhead yellow gantry crane and receiving conveyor dock."
+    ],
+    [
+      "parts-factory",
+      "Basic METAL PARTS WORKSHOP: exposed copper wire spool, rolling mill with two steel rollers and cutting workbench. Copper orange accents."
+    ],
+    [
+      "glass-factory",
+      "GLASS AND CERAMIC WORKS: enclosed brick kiln with orange glow, pale cyan glass sheets on cooling rollers, exhaust chimney."
+    ],
+    [
+      "smelter",
+      "STEEL AND ALLOY SMELTER: large circular hot orange furnace mouth seen from above, heavy refractory lining, casting channel, exhaust hood."
+    ],
+    [
+      "aluminium-refinery",
+      "NONFERROUS REFINERY: two rectangular electrolytic metal baths, silver ingot casting molds, thick busbars and hood. Silver white accents."
+    ],
+    [
+      "chemical-plant",
+      "PETROCHEMICAL PLANT: round tank tops of different sizes, pipe elbows, small distillation tower cap, dark steel grating. Muted olive accents."
+    ],
+    [
+      "flexible-factory",
+      "MULTIPRODUCT MACHINE SHOP: modular CNC milling bed, chuck, a robotic manipulator, interchangeable tooling station. Muted yellow accents."
+    ],
+    [
+      "electronics-plant",
+      "ELECTRONIC COMPONENT FACTORY: circuit board fabrication line with green boards, compact precision machine, copper trace station and clean enclosure."
+    ],
+    [
+      "rare-concentrator",
+      "RARE EARTH CONCENTRATOR: circular mineral separation basin, ore hopper, vibrating screening bed and curved pipe. Muted purple accents."
+    ],
+    [
+      "rare-separator",
+      "RARE EARTH SEPARATION PLANT: array of six small circular solvent extraction vessels with interconnected pipes, separate colored outlet tanks. Violet and pale green accents."
+    ],
+    [
+      "advanced-materials",
+      "ADVANCED MATERIALS WORKS: enclosed high temperature synthesis chamber, carbon fiber spool and compact crystal growth vessel. Violet accents."
+    ],
+    [
+      "consumer-assembly",
+      "APPLIANCE AND ELECTRONICS ASSEMBLY: assembly belt with rectangular appliance cabinets, robotic arm and inspection bench. Muted cyan accents."
+    ],
+    [
+      "vehicle-assembly",
+      "CAR ASSEMBLY PLANT: recognizable small car body in an open roof assembly bay, two opposing robot arms and tire rack. Muted blue accents."
+    ],
+    [
+      "heavy-assembly",
+      "HEAVY INDUSTRY PLANT: long rail locomotive chassis on parallel rails, massive yellow gantry beam and metal fabrication bay."
+    ],
+    [
+      "aerospace-assembly",
+      "AIRCRAFT AND SHIP ASSEMBLY: small recognizable white airplane fuselage and wings inside open hangar roof, side fabrication workbench and gantry. Teal accents."
+    ],
+    [
+      "packaging-plant",
+      "PLASTIC HOUSEHOLD GOODS FACTORY: injection molding machine with closed mold press, plastic pellets hopper, stack of packaging trays. Cream accents."
+    ],
+    [
+      "data-center-assembly",
+      "DATA CENTER INTEGRATION PLANT: parallel black server racks, blue indicator strips, two large circular cooling fans, coolant piping."
+    ],
+    [
+      "licensed-assembly",
+      "LICENSED DISPLAY GOODS PACKING DEPOT: secure packaging warehouse, sealed dark crates, quality inspection bench, amber security lights. No weapons or gun manufacturing machinery."
+    ]
+  ],
+  "market": "Wholesale depot with ribbed roof, cargo crates, loading bay and ventilation fan; same overhead industrial pixel-art constraints."
+}

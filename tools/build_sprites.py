@@ -23,11 +23,5 @@ for n,d in enumerate(c['items']):
    for j in range(9):
     x=rng.randrange(3,26);y=rng.randrange(3,26);p.polygon([(x,y),(x+4,y-2),(x+6,y+3),(x+1,y+5)],fill=color,outline=edge)
    im.save(out/('ore-'+d['id']+str(v)+'.png'))
-for n,f in enumerate(c['factories']+[{'id':'market'},{'id':'headquarters'},{'id':'import-terminal'}]):
- im=Image.new('RGBA',(64,64));p=ImageDraw.Draw(im);accent=['#cda079','#b8e0ea','#93d99e','#c6a5ee'][n%4]
- p.rectangle((1,1,62,62),fill='#39424b',outline='#252b30',width=3);p.rectangle((7,7,56,56),fill='#677681',outline='#a0a9ad',width=2)
- p.rectangle((14,14,44,44),fill='#303b43',outline=accent,width=3);p.rectangle((20,20,38,38),fill=accent)
- for x,y in [(3,3),(54,3),(3,54),(54,54)]:p.rectangle((x,y,x+6,y+6),fill='#c6c6bc')
- p.rectangle((47,15,54,44),fill='#273239');p.line((50,18,50,39),fill=accent,width=2)
- im.save(out/(f['id']+'.png'))
-print('sprites',len(list(out.glob('*.png'))))
+# Building sprites are separately authored assets; never overwrite them here.
+print('item and ore sprites refreshed; building artwork preserved')

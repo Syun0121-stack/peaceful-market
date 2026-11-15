@@ -3,7 +3,7 @@
   "displayName": "고요한 시장 · 기업 경영",
   "author": "Custom mod",
   "description": "전투 없는 세르플로 산업·기업 경영 캠페인. 완제품 28종, 공장 17종, 희토류 분리, 자원 수입, 주식 투자와 인수, CEO 해임. 싱글플레이.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "minGameVersion": "160.7",
   "hidden": false,
   "repo": "Syun0121-stack/peaceful-market"
